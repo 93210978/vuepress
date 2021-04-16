@@ -1,2 +1,0 @@
-- name: Vuepress deploy
-  uses: jenkey2011/vuepress-deploy@1.6.1
