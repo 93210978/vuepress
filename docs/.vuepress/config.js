@@ -1,7 +1,7 @@
 /*
  * @Author: 陆伟
  * @Date: 2021-04-14 13:13:16
- * @LastEditTime: 2021-04-16 15:46:36
+ * @LastEditTime: 2021-04-19 15:47:21
  * @LastEditors: 陆伟
  * @Description: 
  */
@@ -11,7 +11,8 @@ module.exports = {
   head: [ // 注入到当前页面的 HTML <head> 中的标签
     ['link', { rel: 'icon', href: '/img/logo.png' }], // 增加一个自定义的 favicon(网页标签的图标)
   ],
-  base: '/', // 这是部署到github相关的配置
+  dest: './dist', // 设置输出目录
+  base: './', // 这是部署到github相关的配置
   markdown: {
     lineNumbers: false // 代码块显示行号
   },
